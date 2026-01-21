@@ -14,7 +14,7 @@
         --blue: #1d4fa3;
         --light-blue: #86c5f4;
         --red: #e34234;
-        --white: #ffffff;
+        --white: #f3f8ff;
         --ink: #0f172a;
         --muted: #5b6473;
         --line: #e6e9ef;
@@ -154,6 +154,13 @@
         border-radius: 16px;
         padding: 18px;
         transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+      }
+
+      .card-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 12px;
       }
 
       .card:hover,
@@ -348,11 +355,11 @@
             </ul>
           </div>
           <div class="card">
-            <h3>2026 convergence</h3>
-            <p>
-              In 2026, these forces converge in a way that is difficult to ignore
-              and difficult to replicate elsewhere.
-            </p>
+            <img
+              class="card-image"
+              src="photos/iqmp.jpg"
+              alt="Illinois Quantum and Microelectronics Park rendering"
+            />
           </div>
         </div>
       </section>
@@ -412,6 +419,7 @@
             <h3>Ecosystem and Convening Anchors</h3>
             <ul class="list">
               <li><a href="https://chicagoquantum.org/">Chicago Quantum Exchange</a></li>
+              <li><a href="https://polsky.uchicago.edu/">Polsky Center</a></li>
               <li><a href="https://p33chicago.com/">P33 Chicago</a></li>
               <li><a href="https://iqmp.org/">Illinois Quantum and Microelectronics Park</a></li>
               <li><a href="https://mhubchicago.com/">mHUB</a></li>
@@ -424,7 +432,7 @@
               <li>Northwestern University</li>
               <li>Argonne National Laboratory</li>
               <li>Fermi National Accelerator Laboratory</li>
-              <li>Additional Illinois-based universities and research centers</li>
+              <li>Illinois Universities</li>
             </ul>
           </div>
           <div class="card">
@@ -433,7 +441,6 @@
               <li>Chicago-founded quantum startups</li>
               <li>Quantum software, hardware, and systems companies expanding into Chicago</li>
               <li>Early-stage teams relocating or establishing a presence in the region</li>
-              <li>Spinouts and translational research ventures</li>
             </ul>
           </div>
           <div class="card">
@@ -537,7 +544,7 @@
           </div>
           <div class="card event">
             <h3>Quantum Qoffee’s</h3>
-            <p><strong>Cadence:</strong> Monthly, March–December 2026</p>
+            <p><strong>Cadence:</strong> Monthly, Mar–Dec 2026</p>
             <p>
               Build consistent community engagement, strengthen connections, and
               maintain momentum between major conferences and events.
